@@ -84,7 +84,7 @@ except IndexError:
     print 'SIP/2.0 400 Bad Request' + '\r\n'
     sys.exit("Usage: python uaclient.py config method option")
 
-#Metodos posibles a enviar
+#Metodos posibles a enviar.
 Lista = ["REGISTER", "INVITE", "BYE"]
 if METOD not in Lista:
     print "Usage: python uaclient.py config method option" + '\r\n'
